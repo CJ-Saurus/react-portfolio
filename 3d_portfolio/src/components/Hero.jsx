@@ -21,6 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a full stack <br className='sm:block hidden' />
             web developer.
+            <img src="/src/assets/self.jpeg" alt="self" width="150px" height="300px"></img>
           </p>
         </div>
       </div>

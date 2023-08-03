@@ -20,6 +20,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    cq,
+    nt,
+    pwg,
+    wd,
+    wds,
+    cc,
 } from "../assets";
 
 export const navLinks = [
@@ -28,13 +34,17 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "projects",
+        title: "Projects",
+    },
+    {
+        id: "resume",
+        title: "Resume",
     },
     {
         id: "contact",
         title: "Contact",
-    },
+    }
 ];
 
 const services = [
@@ -141,7 +151,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "Testimonial",
+            "Email",
         name: "Name",
         designation: "Position",
         company: "Company",
@@ -167,9 +177,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Project 1",
+        name: "Work Day Scheduler",
         description:
-            "Information about Project 1 to be written here",
+            "An application built to schedule your work day",
         tags: [
             {
                 name: "technology",
@@ -184,13 +194,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: wds,
+        source_code_link: "https://cj-saurus.github.io/Work-Day-Scheduler/",
     },
     {
-        name: "Project 2",
+        name: "Note-Taker",
         description:
-            "Information about Project 2 to be written here",
+            "An application that can be used to write and save notes",
         tags: [
             {
                 name: "technology",
@@ -205,13 +215,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: nt,
+        source_code_link: "https://note-taker3319-a0820813a5b0.herokuapp.com/",
     },
     {
-        name: "Project 3",
+        name: "Craft-Crawler",
         description:
-            "Information about Project 3 to be written here",
+            "An application to create your very own brewery tour for you and your friends",
         tags: [
             {
                 name: "technology",
@@ -226,8 +236,71 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: cc,
+        source_code_link: "https://craft-crawler.herokuapp.com/",
+    },
+    {
+        name: "Weather Dashboard",
+        description:
+            "An application that will give you a 5 day weather forecast",
+        tags: [
+            {
+                name: "technology",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "green-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: wd,
+        source_code_link: "https://cj-saurus.github.io/Weather-Dashboard/",
+    },
+    {
+        name: "Code Quiz",
+        description:
+            "A timed quiz",
+        tags: [
+            {
+                name: "technology",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "green-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: cq,
+        source_code_link: "https://cj-saurus.github.io/Code-Quiz/",
+    },
+    {
+        name: "Password Generator",
+        description:
+            "An application that can generate a password between 8-128 characters",
+        tags: [
+            {
+                name: "technology",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "green-text-gradient",
+            },
+            {
+                name: "technology",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pwg,
+        source_code_link: "https://cj-saurus.github.io/Javascript-Password-Generator/",
     },
 ];
 

@@ -80,8 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Here will be an overview of the projects that I have created along
-          with technologies used.
+          These are a few projects that I have created
         </motion.p>
       </div>
 
@@ -94,4 +93,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

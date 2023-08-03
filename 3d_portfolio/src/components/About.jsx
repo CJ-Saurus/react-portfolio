@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        This where I will write an overview of myself where I let people know
-        what technologies I'm familiar with also sell myself.
+        My name is CJ I recently completed Rice University's full stack web developer bootcamp
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

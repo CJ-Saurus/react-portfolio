@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cq from "./cq.png";
+import nt from "./nt.png";
+import pwg from "./pwg.png";
+import wd from "./wd.png";
+import wds from "./wds.png";
+import cc from "./cc.png"
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  cq,
+  nt,
+  pwg,
+  wd,
+  wds,
+  cc,
 };
