@@ -26,6 +26,7 @@ import {
     wd,
     wds,
     cc,
+    songtimentss,
 } from "../assets";
 
 export const navLinks = [
@@ -177,7 +178,7 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Work Day Scheduler",
+        name: "Songtiment",
         description:
             "An application built to schedule your work day",
         tags: [
@@ -194,8 +195,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: wds,
-        source_code_link: "https://cj-saurus.github.io/Work-Day-Scheduler/",
+        image: songtimentss,
+        source_code_link: "https://github.com/CJ-Saurus/Songtiment",
     },
     {
         name: "Note-Taker",
